@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fdff91;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container-do-forms {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-registrar {
+    text-align: center;
+}
+
+.form-forgot-password,
+.form-enter-code,
+.form-new-password {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.input-field {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-field i {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #555;
+}
+
+.input-field input {
+    width: 100%;
+    padding: 10px;
+    padding-left: 30px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn2 {
+    display: inline-block;
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.btn2.solid {
+    width: 150px;
+    background-color: #ff6464;
+    border: none;
+    outline: none;
+    height: 49px;
+    border-radius: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn2:hover {
+    background-color: #ff0000;
+}
+
+.form-enter-code,
+.form-new-password {
+    display: none;
+}

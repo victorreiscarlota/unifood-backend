@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UniFood</title>
+    <link rel="stylesheet" href="/src/css/orders.css" />
+    <link rel="stylesheet" href="/src/css/app.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/images/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/images/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/images/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="/images/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+  </head>
+
+  <body>
+    <header class="header">
+      <a
+        href="/"
+        class="logo"
+        style="filter: drop-shadow(0 0 5px #fff)"
+      >
+        UniFood
+      </a>
+      <nav class="navbar">
+        <a href="/"> Home </a>
+        <a href="#">Carrinho</a>
+      </nav>
+    </header>
+    <div class="container">
+      <div class="wrapper">
+        <div class="barra">
+          <div class="title">
+            <p class="texto">Seus pedidos</p>
+            <p
+              class="quantidade-de-notificacoes-nao-lidas"
+              id="quantidade-de-notificacoes-nao-lidas"
+            >
+              3
+            </p>
+          </div>
+          <a href="#" class="ver" id="ver"
+            ><img
+              src="https://cdn.discordapp.com/attachments/895030530154823720/1167165241008861234/eye-slash.png?ex=654d2256&is=653aad56&hm=bb827221d77033547cd168fa92c4de9874adaa76af12b3b139d1096248fc3428&"
+              alt="Não lido"
+          /></a>
+        </div>
+        <div class="pedidos">
+          <div class="caixa nao-visto">
+            <div class="avatar">
+              <img
+                src="https://cdn.discordapp.com/attachments/895030530154823720/1167164918601105538/exclamation_1.png?ex=654d2209&is=653aad09&hm=d13ff715bb5480e157f2e822177c62580f68e4f190a41d923a4573ca2b5f1bba&"
+                alt=""
+              />
+            </div>
+            <div class="caixa-texto">
+              <p class="notifi">
+                <a href="#" class="nome"> - </a> -
+                <a href="#" class="post">-</a>
+                <span class="ponto"></span>
+              </p>
+              <p class="tempo">Há 1 mês</p>
+            </div>
+          </div>
+
+          <div class="caixa nao-visto">
+            <div class="avatar">
+              <img src="" alt="" />
+            </div>
+            <div class="caixa-texto">
+              <p class="notifi">
+                <a href="#" class="nome">- </a>-
+                <span class="ponto"></span>
+              </p>
+              <p class="tempo">Há 1 semana</p>
+            </div>
+          </div>
+
+          <div class="caixa nao-visto">
+            <div class="avatar">
+              <img src="" alt="" />
+            </div>
+            <div class="caixa-texto">
+              <p class="notifi">
+                <a href="#" class="nome">- </a>- <a href="#" class="grupo">-</a>
+                <span class="ponto"></span>
+              </p>
+              <p class="tempo">Há 1 dia</p>
+            </div>
+          </div>
+
+          <div class="caixa tem-mensagem">
+            <div class="avatar">
+              <img src="" alt="" />
+            </div>
+            <div class="caixa-texto">
+              <p class="notifi"><a href="#" class="nome">- </a>-</p>
+              <p class="tempo">Há 5 dias</p>
+              <div class="message">
+                <p>-</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="caixa comentario">
+            <div class="esquerda">
+              <div class="avatar">
+                <img src="" alt="" />
+              </div>
+              <div class="caixa-texto">
+                <p class="notifi"><a href="#" class="nome">- </a>-</p>
+                <p class="tempo">-</p>
+              </div>
+            </div>
+            <div class="img-box">
+              <img src="" alt="" />
+            </div>
+          </div>
+
+          <div class="caixa">
+            <div class="avatar">
+              <img src="" alt="" />
+            </div>
+            <div class="caixa-texto">
+              <p class="notifi">
+                <a href="#" class="nome">-</a>- <a href="#" class="post">-</a>
+              </p>
+              <p class="tempo">-</p>
+            </div>
+          </div>
+
+          <div class="caixa">
+            <div class="avatar">
+              <img src="" alt="" />
+            </div>
+            <div class="caixa-texto">
+              <p class="notifi">
+                <a href="#" class="nome">- </a>- <a href="#" class="grupo">-</a>
+              </p>
+              <p class="tempo">-</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/src/js/orders.js"></script>
+  </body>
+</html>

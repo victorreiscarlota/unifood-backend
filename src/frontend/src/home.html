@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UniFood</title>
+    <base href="/" />
+    <!--- import de css -->
+    <link rel="stylesheet" href="/src/css/app.css" />
+    <link rel="stylesheet" href="/src/css/header.css" />
+    <!--- import de css -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/src/images/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/src/images/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/src/images/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="/images/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Lobster&family=Outfit:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+  </head>
+
+  <body>
+    <header class="header">
+      <a
+        href="/"
+        class="logo"
+        style="
+          filter: drop-shadow(0 0 0 #ffffff);
+          transition: filter 0.8s ease-in-out;
+        "
+        onmouseover="this.style.filter='drop-shadow(0 0 5px #ffffff)';"
+        onmouseout="this.style.filter='drop-shadow(0 0 0 #ffffff)';"
+      >
+        <img src="/images/ramon.svg" alt="logo" />
+      </a>
+      <nav class="navbar">
+        <a href="/restaurants">Ver restaurantes</a>
+        <a href="/register">Cadastrar</a>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section id="banner-principal">
+        <div id="lado-esquerdo" class="lado">
+          <h2 class="titulo">
+            Quando sentir fome
+            <span class="detalhado">peça</span>
+          </h2>
+        </div>
+        <div id="lado-direito" class="lado">
+          <h2 class="titulo">
+            Quando quiser
+            <span class="detalhado">busque</span>
+          </h2>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="/src/js/slider.js"></script>
+  </body>
+</html>

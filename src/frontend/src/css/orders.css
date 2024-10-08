@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background: hsl(0, 60%, 98%);
+    font-size: 16px;
+    color: hsl(219, 12%, 42%);
+}
+
+.container {
+    max-width: 860px;
+    margin: 80px auto;
+}
+
+.wrapper {
+    background-color: #ffffff;
+    padding: 40px 30px 0;
+    margin: 30px;
+    border-radius: 15px;
+    
+}
+
+.barra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+}
+
+p.texto {
+    color: hsl(224, 21%, 14%);
+    font-size: 28px;
+    font-weight: 800;
+}
+
+p.quantidade-de-notificacoes-nao-lidas {
+    color: #FFF;
+    background-color: hsl(0, 100%, 70%);
+    padding: 3px 12px;
+    border-radius: 5px;
+    font-weight: 800;
+    margin-left: 5px;
+}
+
+a.ver {
+    text-decoration: none;
+    color: hsl(219, 14%, 63%);
+    font-size: 18px;
+}
+
+.caixa {
+    padding: 17px;
+    margin: 12px 0;
+    display: flex;
+    align-items: center;
+}
+
+.caixa.nao-visto {
+    background-color: hsl(210, 60%, 98%);
+    border-radius: 10px;
+}
+
+.avatar img {
+    width: 50px;
+    margin-right: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a.nome {
+    color: hsl(224, 21%, 14%);
+    font-weight: 800;
+}
+
+a.post {
+    color: hsl(219, 12%, 42%);
+    font-weight: 800;
+}
+
+a.grupo {
+    font-weight: 800;
+}
+
+a.nome:hover,
+a.post:hover,
+a.grupo:hover,
+a.ver:hover {
+    color: hsl(219, 85%, 26%);
+}
+
+span.ponto {
+    display: inline-block;
+    background-color: hsl(1, 90%, 64%);
+    height: 9px;
+    width: 9px;
+    border-radius: 50%;
+    margin-left: 7px;
+}
+
+.mensagem {
+    border: 2px solid hsl(205, 33%, 90%);
+    padding: 12px;
+    font-size: 18px;
+    margin-top: 13px;
+    border-radius: 5px;
+}
+
+.tem-mensagem {
+    align-items: flex-start;
+}
+
+.esquerda {
+    display: flex;
+    align-items: center;
+}
+
+.caixa.comentario {
+    justify-content: space-between;
+}
+
+.img-box img {
+    width: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+
+    .container {
+        margin: 20px auto;
+    }
+
+    .wrapper {
+        margin: 10px;
+        padding: 25px 15px 0;
+    }
+
+    p.texto {
+        font-size: 20px;
+    }
+
+    p.quantidade-de-notificacoes-nao-lidas {
+        padding: 1px 10px;
+        margin-left: 5px;
+    }
+
+    a.ver {
+        font-style: 15px;
+    }
+
+    .mensagem p {
+        font-size: 14px;
+        padding: 9px;
+    }
+}
+
+
+.link i {
+    padding-left: 7px;
+}
+
+.link:hover {
+    text-decoration: underline;
+    background-color: black;
+}

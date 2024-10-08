@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="/src/css/register.css" />
+    <link rel="stylesheet" href="/src/css/app.css" />
+    <link rel="stylesheet" href="/src/css/header.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/images/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/images/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/images/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="/images/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <title>Fazer login</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="/" class="logo" style="filter: drop-shadow(0 0 5px #282323)">
+        <img src="/images/ramon.svg" alt="UniFood logo" />
+      </a>
+    </header>
+    <div class="container">
+      <div class="container-do-forms">
+        <div class="login-registrar">
+          <form class="form-logar">
+            <h2 class="title">Fazer login</h2>
+            <div class="input-field">
+              <i class="fas fa-user"></i>
+              <input type="email" placeholder="Email" id="loginEmail" />
+            </div>
+            <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <input
+                type="password"
+                placeholder="Senha"
+                id="loginPassword"
+              />
+            </div>
+            <button id="loginSubmit" class="btn solid" >
+              Login
+            </button>
+
+            <button id="forgotsubmit" class="btn2 solid" type="button" >
+              Esqueceu sua senha?
+            </button>
+
+
+          </form>
+
+          <form action="#" class="form-registrar">
+            <h2 class="title">Crie seu usuário</h2>
+            <div class="input-field">
+              <i class="fas fa-user"></i>
+              <input
+                type="text"
+                id="registerName"
+                placeholder="Nome completo"
+              />
+            </div>
+            <div class="input-field">
+              <i class="fas fa-user"></i>
+              <input type="text" id="registerCpf" placeholder="CPF" />
+            </div>
+            <div class="input-field">
+              <i class="ph-duotone ph-phone"></i>
+              <input
+                type="text"
+                placeholder="Número de telefone"
+                id="registerPhone"
+              />
+            </div>
+            <div class="input-field">
+              <i class="fas fa-envelope"></i>
+              <input type="email" id="registerEmail" placeholder="Email" />
+            </div>
+            <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <input
+                type="password"
+                placeholder="Senha"
+                id="registerPassword"
+              />
+            </div>
+            <input
+              type="button"
+              id="registerSubmit"
+              class="btn"
+              value="Registrar"
+            />
+          </form>
+        </div>
+      </div>
+
+      <div class="container-das-bolhas-animação">
+        <div class="bolha bolha-da-esquerda">
+          <div class="content">
+            <h3>Terras novas?</h3>
+            <p>Cadastre-se no UniFood!</p>
+            <button class="btn transparent" id="registrar-btn">
+              Registrar
+            </button>
+          </div>
+          <img src="img/log.svg" class="image" alt="" />
+        </div>
+        <div class="bolha direita-bolha">
+          <div class="content">
+            <h3>Já faz parte?</h3>
+            <p>Entre com seu usuário e senha!</p>
+            <button class="btn transparent" id="logar-btn">Fazer login</button>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    <script src="/src/js/register.js"></script>
+  </body>
+</html>

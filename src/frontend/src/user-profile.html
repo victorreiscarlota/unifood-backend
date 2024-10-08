@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="/src/css/user-profile.css" />
+    <link rel="stylesheet" href="/src/css/app.css" />
+    <link rel="stylesheet" href="/src/css/header.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Lobster&family=Outfit:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Meus dados - UniFood</title>
+
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  </head>
+  <body>
+    <header class="header">
+      <a href="/src/home.html" class="logo">
+        <img src="/images/logo.svg" alt="UniFood logo" />
+      </a>
+      <nav class="navbar">
+        <div class="search-bar icon-container">
+          <i class="ph-duotone ph-hamburger"></i>
+          <a href="/products.html">Buscar restaurantes</a>
+        </div>
+
+        <div class="address-dropdown icon-container">
+          <i class="ph-duotone ph-buildings"></i>
+          <a href="">Endereços</a>
+        </div>
+
+        <div class="shopping-cart-container icon-container">
+          <i class="ph-duotone ph-bag-simple"></i>
+          <div class="shopping-cart-items">
+            <span>R$50,00</span>
+            <span>2 itens</span>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="user-info-container content-wrapper-has-nav">
+      <div class="user-info-content">
+        <div class="user-info-title">Meus dados</div>
+        <ul class="user-info-list">
+          <li class="user-info-item">
+            <div class="user-info-name-title">Nome completo</div>
+            <span class="user-info-name-span"></span>
+          </li>
+
+          <li class="user-info-item">
+            <div class="user-info-cpf-title">CPF</div>
+            <span class="user-info-cpf-span"></span>
+          </li>
+
+          <li class="user-info-item">
+            <div class="user-info-email-title">E-mail</div>
+            <span class="user-info-email-span"></span>
+          </li>
+
+          <li class="user-info-item">
+            <div class="user-info-phone-title">Telefone</div>
+            <span class="user-info-phone-span"></span>
+          </li>
+        </ul>
+      </div>
+    </main>
+
+    <script type="module" src="/src/js/user-profile.js"></script>
+  </body>
+</html>
